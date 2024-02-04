@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #000000;
+  --color: #f5f5f5;
+  --font: "system Font";
+}
+
+body {
+  background-color: var(--background);
+  color: var(--color);
+  font-family: var(--font);
+  overflow: auto;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  overflow: hidden;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.menu {
+  border-right: 0.6px solid #262626;
+  width: 15.313rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  margin-top: 51px;
+  margin-left: 27px;
+  font-weight: normal;
+  transform: translate(-5%, -30%);
+  width: 50%;
+  height: 3rem;
+}
+
+.list-con {
+  position: absolute;
+  top: 6rem;
+}
+
+.menu li {
+  width: 12.8rem;
+  height: 2.6rem;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem; /* Adjust the margin to create space between elements */
+  background: transparent;
+  transition: 0.3s ease;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 100;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 1.6rem;
+}
+.menu li:hover {
+  background: rgba(105, 105, 105, 0.1);
+}
+
+.menu ul li i {
+  padding: 24px;
+  font-size: 1.6rem;
+}
+
+.Explore {
+  margin-left: 4.7rem;
+  font-size: 1.6rem;
+  list-style: none;
+}
+.explore {
+  filter: invert();
+}
+.Reels {
+  margin-left: 4.7rem;
+  font-size: 1.6rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.reels {
+  filter: invert();
+}
+
+.menu ul li img {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  margin-left: 1.8rem;
+  position: absolute;
+  left: 0;
+}
+
+.menu ul li span {
+  position: absolute;
+  left: 5rem;
+  margin-top: rem;
+}
+
+.profile-section {
+  width: 100vw;
+  height: 100vh;
+  margin-left: 31rem;
+}
+
+.profile-img {
+  width: 10.5rem;
+  height: 9.8rem;
+  border-radius: 50%;
+  margin: -31rem 9rem;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+
+.profile-section h3 {
+  position: absolute;
+  top: 3.2rem;
+  left: 42rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.edit {
+  position: absolute;
+  top: 2.7rem;
+  left: 51rem;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  background: #363636;
+  outline: 0;
+  border: 0;
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+.view {
+  position: absolute;
+  top: 2.7rem;
+  left: 58rem;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
+  background: #363636;
+  outline: 0;
+  border: 0;
+  color: #f5f5f5;
+  font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #262626;
+}
+
+#setting {
+  position: absolute;
+  top: 3rem;
+  left: 66rem;
+  font-size: 2rem;
+}
+
+.count {
+  width: 22rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 5.7rem;
+  left: 44rem;
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+
+.user {
+  position: absolute;
+  top: 10rem;
+  left: 44rem;
+  font: 0.9rem;
+  line-height: 1.1rem;
+}
+
+.line {
+  width: 70%;
+  height: 0.1rem;
+  background: #1b1b1b;
+  position: absolute;
+  top: 16rem;
+  left: 20rem;
+}
+.line-1 {
+  width: 5%;
+  height: 0.1rem;
+  background: #f5f5f5;
+  position: absolute;
+  top: 16rem;
+  left: 39rem;
+}
+
+.post-count {
+  width: 50%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 30rem;
+  top: 16rem;
+  cursor: pointer;
+}
+
+.post-count i {
+  margin: 3rem 4rem;
+}
+
+.posts {
+  width: 77%;
+  height: 100%;
+  margin-top: 43rem;
+  margin-left: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.posts img {
+  width: 22rem;
+  height: 22rem;
+  padding: 3px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.posts img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

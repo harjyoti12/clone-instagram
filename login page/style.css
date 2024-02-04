@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "system Font";
+  overflow-x: hidden;
+}
+
+.container {
+  background: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.phone {
+  position: relative;
+  top: 3rem;
+  left: 17rem;
+}
+
+.content {
+  position: absolute;
+  top: 4.7rem;
+  left: 26.9rem;
+}
+
+form {
+  width: 23.9rem;
+  height: 29rem;
+  background: #ffffff;
+  position: absolute;
+  top: 4rem;
+  right: 20rem;
+  border: 1px solid #e9e9e9;
+}
+
+.logo {
+  width: 12rem;
+  height: 12rem;
+  margin: -1rem 5rem;
+}
+
+.user {
+  width: 70%;
+  height: 9%;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 10rem;
+  left: 3.5rem;
+  background: #fafafa;
+  border: 1px solid #e9e9e9;
+  outline: 0;
+  padding-left: 1rem;
+}
+.pass {
+  width: 70%;
+  height: 9%;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 13rem;
+  left: 3.5rem;
+  background: #fafafa;
+  border: 1px solid #e9e9e9;
+  outline: 0;
+  padding-left: 1rem;
+}
+
+.btn {
+  width: 70%;
+  height: 7%;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 17rem;
+  left: 3.5rem;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #4cb5f9;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.line {
+  background: #e9e9e9;
+  width: 30%;
+  height: 0.1%;
+  position: absolute;
+  top: 21.5rem;
+  left: 2.8rem;
+}
+.line1 {
+  background: #e9e9e9;
+  width: 30%;
+  height: 0.1%;
+  position: absolute;
+  top: 21.5rem;
+  right: 2.8rem;
+}
+
+h5 {
+  position: absolute;
+  top: 21rem;
+  left: 11rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+h2 {
+  position: absolute;
+  top: 24rem;
+  left: 8rem;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+i {
+  position: absolute;
+  top: 23.6rem;
+  left: 5.8rem;
+  font-size: 1.6rem;
+  color: blue;
+}
+
+p {
+  position: absolute;
+  bottom: 1.4rem;
+  left: 9rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #00376b;
+  cursor: pointer;
+}
+
+.signup {
+  width: 23.9rem;
+  height: 4rem;
+  background: #ffffff;
+  position: absolute;
+  top: 34rem;
+  right: 20rem;
+  border: 1px solid #e9e9e9;
+}
+
+.sign {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  color: #000000;
+  transform: translate(-20%, 50%);
+  font-weight: 300;
+}
+
+span {
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+h6 {
+  position: absolute;
+  bottom: 5.5rem;
+  right: 28rem;
+  font-weight: 100;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+}
+
+.play {
+  width: 8rem;
+  height: 3rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 30rem;
+  cursor: pointer;
+}
+.micro {
+  width: 8rem;
+  height: 3rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 21rem;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  color: #737373;
+  width: 70%;
+  position: absolute;
+  bottom: -5rem;
+  left: 16rem;
+}
+
+a {
+  text-decoration: none;
+  color: #385185;
+  cursor: pointer;
+}
+li:hover {
+  text-decoration: underline;
+}
+
+#language {
+  position: absolute;
+  bottom: -8rem;
+  left: 36rem;
+  border: 0;
+  outline: 0;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  color: #737373;
+}
+
+footer {
+  position: absolute;
+  bottom: -8rem;
+  left: 43rem;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  color: #737373;
+}

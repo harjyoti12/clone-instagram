@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #000000;
+  --color: #f5f5f5;
+  --font: "system Font";
+}
+
+body {
+  background-color: var(--background);
+  color: var(--color);
+  font-family: var(--font);
+  overflow: auto;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.menu {
+  border-right: 0.6px solid #262626;
+  width: 15.313rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  margin-top: 51px;
+  margin-left: 27px;
+  font-weight: normal;
+  transform: translate(-5%, -30%);
+  width: 50%;
+  height: 3rem;
+}
+
+.list-con {
+  position: absolute;
+  top: 6rem;
+}
+
+.menu li {
+  width: 12.8rem;
+  height: 2.6rem;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem; /* Adjust the margin to create space between elements */
+  background: transparent;
+  transition: 0.3s ease;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-weight: 100;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 1.6rem;
+}
+.menu li:hover {
+  background: rgba(105, 105, 105, 0.1);
+}
+
+.menu ul li i {
+  padding: 24px;
+  font-size: 1.6rem;
+}
+
+.Explore {
+  margin-left: 4.7rem;
+  font-size: 1.6rem;
+  list-style: none;
+}
+.explore {
+  filter: invert();
+}
+.Reels {
+  margin-left: 4.7rem;
+  font-size: 1.6rem;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+.reels {
+  filter: invert();
+}
+
+.menu ul li img {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  margin-left: 1.8rem;
+  position: absolute;
+  left: 0;
+}
+
+.menu ul li span {
+  position: absolute;
+  left: 5rem;
+  margin-top: rem;
+}
+
+.post-area {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 31rem;
+}
+
+.post-con {
+  width: 431px;
+  max-width: 800px;
+  height: 636px;
+  position: relative;
+  top: 4rem;
+  margin-top: 3rem;
+  margin-left: -27rem;
+  margin-bottom: 150px; /* Adjust the margin for spacing between posts */
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+  top: 9rem;
+  margin-left: 23rem;
+}
+
+.buttons i {
+  margin: 1rem -3rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 1rem;
+  font-weight: 100;
+}
+.img {
+  width: 2.5rem;
+  height: 2.6rem;
+  margin-right: 0.5rem;
+  object-fit: cover;
+  object-position: center;
+}
+.img img {
+  width: 2.5rem;
+  height: 2.6rem;
+  border: 1px solid;
+  margin-right: 0.5rem;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+}
+.post {
+  width: 316px;
+  height: 500px;
+
+  margin-top: -21rem;
+  margin-left: 3rem;
+}
+
+#volume {
+  position: relative;
+  right: 6rem;
+  top: 1.7rem;
+  margin-left: 22rem;
+  font-size: 1.8rem;
+}
+.vedios {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1rem;
+  margin-top: -2rem;
+}
+
+.profile {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: relative;
+  bottom: 9rem;
+  left: 2rem;
+}
+.post p {
+  position: absolute;
+  bottom: 7.2rem;
+  left: 8rem;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+}
+
+button {
+  padding: 0.4rem;
+  border-radius: 7px;
+  background-color: transparent;
+  outline: 0;
+  border: 0.1px solid #262626;
+  position: absolute;
+  bottom: 6.8rem;
+  right: 9rem;
+  cursor: pointer;
+  color: #f5f5f5;
+}
+
+.post h6 {
+  position: absolute;
+  bottom: 3.5rem;
+  left: 5.4rem;
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 13rem;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+}
+
+.post h5 {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 5.4rem;
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 13rem;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  width: 160px;
+}
