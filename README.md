@@ -150,8 +150,8 @@ The following are the proposed features and enhancements planned for the future 
 
    - Ensure a seamless experience across various devices with a focus on responsive design.
 
-6. **Dark Mode:**
-   - Introduce a dark mode option for users who prefer a darker interface.
+6. **Dark Mode / Light Mode:**
+   - Introduce a dark mode / light mode toggel option for users who prefer a darker / lighter interface.
 
 These are just initial ideas, and the roadmap will be updated as the project evolves. Contributions and suggestions from the community are always welcome!
 
