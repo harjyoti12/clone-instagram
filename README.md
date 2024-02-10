@@ -16,19 +16,19 @@
   </p>
 </p>
 
-![Contributors](https://img.shields.io/github/contributors/harjyoti12/clone-instagram?color=dark-green) ![Issues](https://img.shields.io/github/issues/harjyoti12/clone-instagram) 
+![Contributors](https://img.shields.io/github/contributors/harjyoti12/clone-instagram?color=dark-green) ![Issues](https://img.shields.io/github/issues/harjyoti12/clone-instagram)
 
 ## Table Of Contents
 
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [Authors](#authors)
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Authors](#authors)
 
 ## About The Project
 
@@ -85,7 +85,6 @@ Once the HTML file is open in your web browser, interact with the dynamic featur
 
 That's it! You're now ready to explore the Instagram-clone on your local machine.
 
-
 ### Prerequisites
 
 Before running the Instagram-clone project locally, make sure you have the following installed on your machine:
@@ -107,11 +106,9 @@ git clone https://github.com/harjyoti12/clone-instagram.git
 cd clone-instagram
 
 3. Open the project in a web browser:
-Open the index.html file located in the project directory using your preferred web browser.
+   Open the index.html file located in the project directory using your preferred web browser.
 
 Now you're ready to explore the Instagram-clone on your local machine.
-
-
 
 ## Usage
 
@@ -131,30 +128,32 @@ To get started, open the index.html file in your web browser and interact with t
 
 ## Roadmap
 
-
-
 The following are the proposed features and enhancements planned for the future development of the Instagram-clone project:
 
 1. **Enhanced User Profiles:**
+
    - Implement additional features on user profiles, such as bio editing, profile picture updates, and privacy settings.
 
 2. **Real-time Notifications:**
+
    - Integrate real-time notification functionality for new followers, likes, and comments.
 
 3. **Explore Page:**
+
    - Create an Explore page where users can discover new content based on their interests and preferences.
 
 4. **Direct Messaging:**
+
    - Implement a direct messaging system to enable private conversations between users.
 
 5. **Responsive Design:**
+
    - Ensure a seamless experience across various devices with a focus on responsive design.
 
 6. **Dark Mode:**
    - Introduce a dark mode option for users who prefer a darker interface.
 
 These are just initial ideas, and the roadmap will be updated as the project evolves. Contributions and suggestions from the community are always welcome!
-
 
 ## Contributing
 
@@ -224,9 +223,6 @@ Provide a clear title and description for your pull request.
 Click the "Create pull request" button.
 Your pull request will be reviewed, and if everything aligns with the project's guidelines, it will be considered for merging. Thank you for your contribution!
 
-
-
 ## Authors
 
-* **harjyoti** - ** - [harjyoti]() - *We appreciate the dedication and efforts of the authors in making the Instagram-clone project a reality. If you contribute to this project, harjyoti kalita and contributions will be added to this list.*
-
+- **harjyoti** - \** - [https://www.buymeacoffee.com/horoji86v]() - *We appreciate the dedication and efforts of the authors in making the Instagram-clone project a reality. If you contribute to this project, harjyoti kalita and contributions will be added to this list.\*
