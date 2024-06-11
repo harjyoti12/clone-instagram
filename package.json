@@ -1,0 +1,11 @@
+{
+  "name": "instagram-clone",
+  "version": "1.0.0",
+  "description": "<br/> <p align=\"center\">   <a href=\"https://github.com/harjyoti12/clone-instagram\">     <img src=\"/project-img/1409946.png\" alt=\"Logo\" width=\"80\" height=\"80\">   </a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}
